@@ -1,0 +1,158 @@
+
+/*layout*/
+
+html {
+    font-size: 16px;
+  }
+
+  *{
+    font-family: "proxima-nova", sans-serif;
+
+}
+  
+  
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin: 0;
+    line-height: 1;
+  
+  }
+  
+  h2 {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 3.5rem; 
+    font-weight: 400;
+    margin: 0;
+    line-height: 1;
+  }
+  
+  h4 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  h5 {
+    font-size: 2rem; 
+    font-weight: 700;
+  }
+  
+  
+  p {
+    font-size: 1rem; 
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  
+  }
+  
+
+.header{
+    padding-top: 1rem;
+    padding-bottom:1rem ;
+    position: relative;
+
+}
+
+.header img{
+    width: 10rem; 
+    height: 5rem; 
+}
+.shadow-overlay {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 100%);
+  }
+
+
+.section {
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+
+.footer{
+    color: #ffff;
+    font-size: 0.7rem;
+    position: relative;
+
+}
+
+.footer img{
+    width: 10rem;
+    height: 5rem; 
+}
+
+.shadow-overlay-top {
+    position: absolute;
+    top: -20px; 
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 100%);
+  }
+
+/*layout*/
+
+
+
+.txt-white{
+    color: #ffff;
+}
+
+.btn-cs{
+    background-color: white;
+    color: #00BFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem 1.5rem; 
+  }
+  
+  .btn-cs:hover {
+    background-color: #00BFFF;
+    color: white;
+  }
+
+  .btn-cs-2{
+    background-color: #00BFFF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem 1.5rem; 
+  }
+
+
+
+
+  .card img {
+    width: 65%; 
+    height: auto;
+  }
+
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.kamilo{
+
+  height: 800px;
+}
