@@ -6,7 +6,7 @@
 
 <div class="container-fluid pt-5 mb-3">
     <div class="container">
-        <div class="row">
+        <div class="row pt-2">
             <div class="col-lg-2 col-0">
                 <form method="GET" action="/">
                         @csrf
@@ -16,15 +16,16 @@
                 </form>
             </div>
 
-            <div class="col-lg-2 col-12 text-center text-lg-start txt-white">
-                <p >Recomendador de Tablets<b> <br>25% completado</b></p>
-            </div>
             
-            <div class="col-lg-6 col-12 my-2">
-                <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
-                    <div class="progress-bar" style="width: 25%;"></div>
+                <div class="col-lg-2 col-12 text-center text-lg-start txt-white">
+                    <p >Recomendador de Tablets<b> <br>25% completado</b></p>
                 </div>
-            </div>
+
+                <div class="col-lg-6 col-12 my-2">
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                        <div class="progress-bar" style="width: 25%;"></div>
+                    </div>
+                </div>
 
             <div class="col-lg-2 col-0">
             <!--ghost col for center-->
@@ -45,14 +46,14 @@
             </div>
         </div>
 
-        <div class="row py-5 g-5 ">
+        <div class="row py-5 g-5 justify-content-center">
             
 
-        <div class="col-lg-3 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
+        <div class="col-lg-2 col-md-4 col-12 d-flex align-items-center justify-content-center pb-lg-5">
             <a href="/2"  class="card-link page-transition">
-                <div class="card" style="width: 16rem;">
+                <div class="card" style="width: 13rem;">
                     <div class="d-flex align-items-center justify-content-center mt-4">
-                        <img src="{{ asset('assets/img/industry.png') }}" class="img-fluid " alt="industry">
+                        <img src="{{ asset('assets/img/industry.svg') }}" class="img-fluid " alt="industry">
                     </div>
                     <div class="card-body text-center">
                         <p class="card-text mb-4">Manufactura</p>
@@ -64,11 +65,11 @@
 
        
 
-        <div class="col-lg-3 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
+        <div class="col-lg-2 col-md-4 col-12 d-flex align-items-center justify-content-center pb-lg-5">
             <a href="/2"  class="card-link">
-                <div class="card" style="width: 16rem;">
+                <div class="card" style="width: 13rem;">
                     <div class="d-flex align-items-center justify-content-center mt-4">
-                        <img src="{{ asset('assets/img/arrow.png') }}" class="img-fluid " alt="arrow">
+                        <img src="{{ asset('assets/img/arrow.svg') }}" class="img-fluid " alt="arrow">
                     </div>
                     <div class="card-body text-center">
                         <p class="card-text mb-4">Retail</p>
@@ -78,11 +79,11 @@
         </div>
 
 
-        <div class="col-lg-3 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
+        <div class="col-lg-2 col-md-4 col-12 d-flex align-items-center justify-content-center pb-lg-5">
             <a href="/2"  class="card-link">
-                <div class="card" style="width: 16rem;">
+                <div class="card" style="width: 13rem;">
                     <div class="d-flex align-items-center justify-content-center mt-4">
-                        <img src="{{ asset('assets/img/hand.png') }}" class="img-fluid " alt="hans">
+                        <img src="{{ asset('assets/img/hand.svg') }}" class="img-fluid " alt="hans">
                     </div>
                     <div class="card-body text-center">
                         <p class="card-text  mb-4">Field Ops</p>
@@ -91,12 +92,26 @@
             </a>  
         </div>
 
-        <div class="col-lg-3 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
+        <div class="col-lg-2 col-md-4 col-12 d-flex align-items-center justify-content-center pb-lg-5">
             <a href="/2"  class="card-link">
 
-                <div class="card" style="width: 16rem;">
+                <div class="card" style="width: 13rem;">
                     <div class="d-flex align-items-center justify-content-center mt-4">
-                        <img src="{{ asset('assets/img/nut.png') }}" class="img-fluid " alt="nut">
+                        <img src="{{ asset('assets/img/almacenamiento.svg') }}" class="img-fluid " alt="nut">
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="card-text mb-4">Warehouse</p>
+                    </div>
+                </div>
+            </a>     
+        </div>
+
+        <div class="col-lg-2 col-md-4 col-12 d-flex align-items-center justify-content-center pb-lg-5">
+            <a href="/2"  class="card-link">
+
+                <div class="card" style="width: 13rem;">
+                    <div class="d-flex align-items-center justify-content-center mt-4">
+                        <img src="{{ asset('assets/img/nut.svg') }}" class="img-fluid " alt="nut">
                     </div>
                     <div class="card-body text-center">
                         <p class="card-text mb-4">Otros</p>

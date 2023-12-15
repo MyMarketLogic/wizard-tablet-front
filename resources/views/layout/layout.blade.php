@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet">
-
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('assets/img/favicon/site.webmanifest') }}">
+    <link rel="mask-icon" href="{{ asset('assets/img/favicon/safari-pinned-tab.svg') }}" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     
@@ -18,7 +24,7 @@
                 <img src="{{ asset('assets/img/zebra-negro.svg') }}" class="img-fluid" alt="logo zebra">
             </div>
             <div class="col-6 d-flex justify-content-end">
-                <img src="{{ asset('assets/img/logo-fake.png') }}" class="img-fluid" alt="logo zebra">
+                <img src="https://placehold.co/200x80?text=Logo+Partners" class="img-fluid" alt="logo zebra">
             </div>
         </div>
     </div>
@@ -35,12 +41,12 @@
   <footer class="container-fluid bg-dark footer">
     <div class="shadow-overlay-top"></div>
     <div class="container">
-        <div class="row pt-3">
+        <div class="row pt-4">
           <div class="col-6">
             <img src="{{ asset('assets/img/zebra-blanco.svg') }}" class="img-fluid" alt="logo zebra">
           </div>
           <div class="col-6 d-flex justify-content-end">
-            <img src="{{ asset('assets/img/logo-fake.png') }}" class="img-fluid" alt="logo zebra">
+            <img src="https://placehold.co/200x80?text=Logo+Partners" class="img-fluid" alt="logo zebra">
           </div>
         </div>
         <div class="row">

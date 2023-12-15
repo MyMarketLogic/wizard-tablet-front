@@ -6,7 +6,7 @@
 
 <div class="container-fluid pt-5 mb-3">
     <div class="container">
-        <div class="row">
+        <div class="row pt-2">
             <div class="col-lg-2 col-0">
                 <form method="GET" action="/1">
                         @csrf
@@ -49,7 +49,7 @@
                 <a href="/3" class="card-link">
                     <div class="card" style="width: 13rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/1.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/1.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                             <p class="card-text mb-4">1 a 10</p>
@@ -62,7 +62,7 @@
                 <a href="/3" class="card-link">
                     <div class="card" style="width: 13rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/50.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/50.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                             <p class="card-text mb-4">11 a 50</p>
@@ -75,7 +75,7 @@
                 <a href="/3" class="card-link">
                     <div class="card" style="width: 13rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/51-100.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/51-100.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                             <p class="card-text mb-4">51 a 100</p>
@@ -88,7 +88,7 @@
                 <a href="/3" class="card-link">
                     <div class="card" style="width: 13rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/100-300.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/100-300.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                             <p class="card-text mb-4">101 a 300</p>
@@ -101,7 +101,7 @@
                 <a href="/3" class="card-link">
                     <div class="card" style="width: 13rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/301.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/301.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                             <p class="card-text mb-4">301 a más</p>

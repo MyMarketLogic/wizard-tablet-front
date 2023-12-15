@@ -6,7 +6,7 @@
 
 <div class="container-fluid pt-5 mb-3">
     <div class="container">
-        <div class="row">
+        <div class="row pt-2">
             <div class="col-lg-2 col-0">
                 <form method="GET" action="/2">
                         @csrf
@@ -44,12 +44,13 @@
             </div>
         </div>
 
-        <div class="row justify-content-center py-5"> 
-            <div class="col-lg-2 col-12 d-flex align-items-center justify-content-center pb-5">
+        <div class="row d-flex align-items-center justify-content-center py-5"> 
+
+            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
                 <a href="/4" class="card-link">
-                    <div class="card" style="width: 13rem;">
+                    <div class="card" style="width: 14rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/movil.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/movil.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                             <p class="card-text mb-4">Resistencia</p>
@@ -58,11 +59,11 @@
                 </a>
             </div>
 
-            <div class="col-lg-2 col-12 d-flex align-items-center justify-content-center pb-5">
+            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
                 <a href="/4" class="card-link">
-                    <div class="card" style="width: 13rem;">
+                    <div class="card" style="width: 14rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/arrows.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/arrows.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                             <p class="card-text mb-4">Resolución</p>
@@ -71,11 +72,11 @@
                 </a>
             </div>
 
-            <div class="col-lg-2 col-12 d-flex align-items-center justify-content-center pb-5">
+            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
                 <a href="/4" class="card-link">
-                    <div class="card" style="width: 13rem;">
+                    <div class="card" style="width: 14rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/sign.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/sign.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                             <p class="card-text mb-4">Conectividad</p>
@@ -84,11 +85,11 @@
                 </a>
             </div>
 
-            <div class="col-lg-2 col-12 d-flex align-items-center justify-content-center pb-5">
+            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
                 <a href="/4" class="card-link">
-                    <div class="card" style="width: 13rem;">
+                    <div class="card" style="width: 14rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/batery.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/batery.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                             <p class="card-text mb-4">Batería</p>
@@ -97,11 +98,11 @@
                 </a>
             </div>
 
-            <div class="col-lg-2 col-12 d-flex align-items-center justify-content-center pb-5">
+            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
                 <a href="/4" class="card-link">
-                    <div class="card" style="width: 13rem;">
+                    <div class="card" style="width: 14rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/eye.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/eye.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                             <p class="card-text mb-4">Escaneo</p>
@@ -110,14 +111,27 @@
                 </a>
             </div>
 
-            <div class="col-lg-2 col-12 d-flex align-items-center justify-content-center pb-5">
+            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
                 <a href="/4" class="card-link">
-                    <div class="card" style="width: 13rem;">
+                    <div class="card" style="width: 14rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/system.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/system.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
-                            <p class="card-text mb-4">S.Operativos</p>
+                            <p class="card-text mb-4">S. operativo Windows</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
+                <a href="/4" class="card-link">
+                    <div class="card" style="width: 14rem;">
+                        <div class="d-flex align-items-center justify-content-center mt-4">
+                            <img src="{{ asset('assets/img/transporte.svg') }}" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="card-text mb-4">Montaje vehicular</p>
                         </div>
                     </div>
                 </a>

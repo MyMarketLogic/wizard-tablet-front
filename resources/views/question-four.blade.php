@@ -6,7 +6,7 @@
 
 <div class="container-fluid pt-5 mb-3">
     <div class="container">
-        <div class="row">
+        <div class="row pt-2">
             <div class="col-lg-2 col-0">
                 <form method="GET" action="/3">
                         @csrf
@@ -38,7 +38,7 @@
 <div class="container-fluid">
     <div class="container">
         <div class="row">
-            <div class="col-12 text-center txt-white py-5">
+            <div class="col-12 text-center txt-white py-4">
                 <h1>Según sus selecciones, esto es lo que le recomendamos.</h1>
             </div>
         </div>
@@ -47,7 +47,7 @@
             <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
                     <div class="card h-100 " style="width: 13rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/et40.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/et40.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                         <h5 class="card-text mb-4 mt-3">ET-40</h5>
@@ -69,7 +69,7 @@
             <div class="col-lg-2 col-12 col-md-6 d-flex align-items-center justify-content-center pb-5">
                     <div class="card h-100" style="width: 13rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/et45.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/et45.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                         <h5 class="card-text mb-4 mt-2">ET-45</h5>
@@ -88,7 +88,7 @@
             <div class="col-lg-2 col-12 col-md-6 d-flex align-items-center justify-content-center pb-5">
                     <div class="card h-100" style="width: 13rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/l10.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/l10.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                         <h5 class="card-text mb-4 mt-3">L10AX</h5>
@@ -108,7 +108,7 @@
             <div class="col-lg-2 col-12 col-md-6 d-flex align-items-center justify-content-center pb-5">
                     <div class="card h-100" style="width: 13rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/et80.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/et80.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                         <h5 class="card-text mb-4 mt-3">ET-80</h5>
@@ -128,7 +128,7 @@
             <div class="col-lg-2 col-12 col-md-6 d-flex align-items-center justify-content-center pb-5">
                     <div class="card h-100" style="width: 13rem;">
                         <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/et85.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/et85.svg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="card-body text-center">
                         <h5 class="card-text mb-4 mt-4">ET-85</h5>
@@ -139,6 +139,26 @@
                             <form method="GET" action="/">
                                 @csrf
                                 <button type="submit" class="btn-cs-2 my-3">Ver más</button>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
+                    <div class="card h-100 " style="width: 13rem;">
+                        <div class="d-flex align-items-center justify-content-center mt-4">
+                            <img src="{{ asset('assets/img/et60.svg') }}" class="img-fluid" alt="">
+                        </div>
+                        <div class="card-body text-center">
+                        <h5 class="card-text mb-4 mt-3">ET-60</h5>
+                            <div class="text-justify">
+                                <p>Está diseñada para las empresas, es resistente a diferentes entornos, puede trabajar con frío o calor. cuenta con conectividad
+                                inalámbrica WiFi 6 y 5G, tiene una pantalla compacta de 8 pulgadas que facilita el transporte.</p>
+                            </div>
+
+                            <form method="GET" action="/">
+                                @csrf
+                                <button type="submit" class="btn-cs-2 my-5">Ver más</button>
                             </form>
                         </div>
                     </div>

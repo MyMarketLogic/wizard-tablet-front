@@ -11,7 +11,7 @@
             <!--ghost col for center-->
             </div>
 
-            <div class="col-lg-2 col-12 text-center text-lg-start txt-white">
+            <div class="col-lg-2 col-12 text-center text-lg-start txt-white pt-2">
                 <p >Recomendador de Tablets<b> <br>0% completado</b></p>
             </div>
             
@@ -47,7 +47,7 @@
                 <!--ghost col-->
             </div>
 
-            <div class="col-lg-6 col-12 d-flex align-items-center justify-content-center mb-4 mt-1 ">
+            <div class="col-lg-6 col-12 d-flex align-items-center justify-content-center mb-5 mt-1 ">
                 <img src="{{ asset('assets/img/tablet-home.png') }}" class="img-fluid" alt="tablets">
             </div>
         </div>
