@@ -152,8 +152,7 @@
                         <div class="card-body text-center">
                         <h5 class="card-text mb-4 mt-3">ET-60</h5>
                             <div class="text-justify">
-                                <p>Está diseñada para las empresas, es resistente a diferentes entornos, puede trabajar con frío o calor. cuenta con conectividad
-                                inalámbrica WiFi 6 y 5G, tiene una pantalla compacta de 8 pulgadas que facilita el transporte.</p>
+                                <p>La tableta ET60 de Zebra es una solución resistente y versátil diseñada para los entornos más exigentes. Cuenta con una pantalla táctil de 10,1 pulgadas,además, tiene una conectividad inalámbrica WiFi 6. Es resistente al polvo, agua, golpes y vibraciones.</p>
                             </div>
 
                             <form method="GET" action="/">
