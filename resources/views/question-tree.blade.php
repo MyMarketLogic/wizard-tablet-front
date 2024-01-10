@@ -49,7 +49,7 @@
             <div class="row d-flex align-items-center justify-content-center py-5">
 
                 <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                    <button type="submit" name="opcion" value="resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
                         <div class="card" style="width: 14rem;">
                             <div class="d-flex align-items-center justify-content-center mt-4">
                                 <img src="{{ asset('assets/img/movil.svg') }}" class="img-fluid" alt="">
@@ -62,7 +62,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                    <button type="submit" name="opcion" value="resolucion" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
                         <div class="card" style="width: 14rem;">
                             <div class="d-flex align-items-center justify-content-center mt-4">
                                 <img src="{{ asset('assets/img/arrows.svg') }}" class="img-fluid" alt="">
@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                    <button type="submit" name="opcion" value="conectividad" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
                         <div class="card" style="width: 14rem;">
                             <div class="d-flex align-items-center justify-content-center mt-4">
                                 <img src="{{ asset('assets/img/sign.svg') }}" class="img-fluid" alt="">
@@ -88,7 +88,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                    <button type="submit" name="opcion" value="bateria" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
                         <div class="card" style="width: 14rem;">
                             <div class="d-flex align-items-center justify-content-center mt-4">
                                 <img src="{{ asset('assets/img/batery.svg') }}" class="img-fluid" alt="">
@@ -101,7 +101,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                    <button type="submit" name="opcion" value="escaneo" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
                         <div class="card" style="width: 14rem;">
                             <div class="d-flex align-items-center justify-content-center mt-4">
                                 <img src="{{ asset('assets/img/eye.svg') }}" class="img-fluid" alt="">
@@ -114,7 +114,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                    <button type="submit" name="opcion" value="windows" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
                         <div class="card" style="width: 14rem;">
                             <div class="d-flex align-items-center justify-content-center mt-4">
                                 <img src="{{ asset('assets/img/system.svg') }}" class="img-fluid" alt="">
@@ -127,7 +127,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                    <button type="submit" name="opcion" value="montaje" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
                         <div class="card" style="width: 14rem;">
                             <div class="d-flex align-items-center justify-content-center mt-4">
                                 <img src="{{ asset('assets/img/transporte.svg') }}" class="img-fluid" alt="">

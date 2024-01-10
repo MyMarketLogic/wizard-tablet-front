@@ -30,3 +30,8 @@ Route::get('/3', function () {
 Route::get('/4', function () {
     return view('question-four');
 });
+
+
+Route::get('/5', function () {
+    return view('prueba');
+});

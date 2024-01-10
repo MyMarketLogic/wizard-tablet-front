@@ -65,7 +65,7 @@
 
 
                     <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
-                        <button type="submit" name="respuesta" value="1 a 10" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <button type="submit" name="respuesta" value="11 a 50" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
                             <div class="card" style="width: 13rem;">
                                 <div class="d-flex align-items-center justify-content-center mt-4">
                                     <img src="{{ asset('assets/img/50.svg') }}" class="img-fluid" alt="">
@@ -78,7 +78,7 @@
                     </div>
 
                     <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
-                        <button type="submit" name="respuesta" value="1 a 10" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <button type="submit" name="respuesta" value="51 a 100" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
                             <div class="card" style="width: 13rem;">
                                 <div class="d-flex align-items-center justify-content-center mt-4">
                                     <img src="{{ asset('assets/img/51-100.svg') }}" class="img-fluid" alt="">
@@ -91,7 +91,7 @@
                     </div>
 
                     <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
-                        <button type="submit" name="respuesta" value="1 a 10" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <button type="submit" name="respuesta" value="101 a 300" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
                             <div class="card" style="width: 13rem;">
                                 <div class="d-flex align-items-center justify-content-center mt-4">
                                     <img src="{{ asset('assets/img/100-300.svg') }}" class="img-fluid" alt="">
@@ -104,7 +104,7 @@
                     </div>
 
                     <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
-                        <button type="submit" name="respuesta" value="1 a 10" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <button type="submit" name="respuesta" value="300 o más" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
                             <div class="card" style="width: 13rem;">
                                 <div class="d-flex align-items-center justify-content-center mt-4">
                                     <img src="{{ asset('assets/img/301.svg') }}" class="img-fluid" alt="">
@@ -120,8 +120,6 @@
 
             </form>
 
-
-       
 
             
         </div>
