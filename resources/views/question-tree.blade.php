@@ -44,106 +44,110 @@
             </div>
         </div>
 
-        <div class="row d-flex align-items-center justify-content-center py-5"> 
+        <form method="GET" action="/4">
+            @csrf 
+            <div class="row d-flex align-items-center justify-content-center py-5">
 
-            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                <a href="/4" class="card-link">
-                    <div class="card" style="width: 14rem;">
-                        <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/movil.svg') }}" class="img-fluid" alt="">
+                <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
+                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <div class="card" style="width: 14rem;">
+                            <div class="d-flex align-items-center justify-content-center mt-4">
+                                <img src="{{ asset('assets/img/movil.svg') }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body text-center">
+                                <p class="card-text mb-4">Resistencia</p>
+                            </div>
                         </div>
-                        <div class="card-body text-center">
-                            <p class="card-text mb-4">Resistencia</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </button>
+                </div>
 
-            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                <a href="/4" class="card-link">
-                    <div class="card" style="width: 14rem;">
-                        <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/arrows.svg') }}" class="img-fluid" alt="">
+                <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
+                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <div class="card" style="width: 14rem;">
+                            <div class="d-flex align-items-center justify-content-center mt-4">
+                                <img src="{{ asset('assets/img/arrows.svg') }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body text-center">
+                                <p class="card-text mb-4">Resolución</p>
+                            </div>
                         </div>
-                        <div class="card-body text-center">
-                            <p class="card-text mb-4">Resolución</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </button>
+                </div>
 
-            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                <a href="/4" class="card-link">
-                    <div class="card" style="width: 14rem;">
-                        <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/sign.svg') }}" class="img-fluid" alt="">
+                <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
+                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <div class="card" style="width: 14rem;">
+                            <div class="d-flex align-items-center justify-content-center mt-4">
+                                <img src="{{ asset('assets/img/sign.svg') }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body text-center">
+                                <p class="card-text mb-4">Conectividad</p>
+                            </div>
                         </div>
-                        <div class="card-body text-center">
-                            <p class="card-text mb-4">Conectividad</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </button>
+                </div>
 
-            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                <a href="/4" class="card-link">
-                    <div class="card" style="width: 14rem;">
-                        <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/batery.svg') }}" class="img-fluid" alt="">
+                <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
+                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <div class="card" style="width: 14rem;">
+                            <div class="d-flex align-items-center justify-content-center mt-4">
+                                <img src="{{ asset('assets/img/batery.svg') }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body text-center">
+                                <p class="card-text mb-4">Batería</p>
+                            </div>
                         </div>
-                        <div class="card-body text-center">
-                            <p class="card-text mb-4">Batería</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </button>
+                </div>
 
-            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                <a href="/4" class="card-link">
-                    <div class="card" style="width: 14rem;">
-                        <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/eye.svg') }}" class="img-fluid" alt="">
+                <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
+                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <div class="card" style="width: 14rem;">
+                            <div class="d-flex align-items-center justify-content-center mt-4">
+                                <img src="{{ asset('assets/img/eye.svg') }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body text-center">
+                                <p class="card-text mb-4">Escaneo</p>
+                            </div>
                         </div>
-                        <div class="card-body text-center">
-                            <p class="card-text mb-4">Escaneo</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </button>
+                </div>
 
-            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                <a href="/4" class="card-link">
-                    <div class="card" style="width: 14rem;">
-                        <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/system.svg') }}" class="img-fluid" alt="">
+                <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
+                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <div class="card" style="width: 14rem;">
+                            <div class="d-flex align-items-center justify-content-center mt-4">
+                                <img src="{{ asset('assets/img/system.svg') }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body text-center">
+                                <p class="card-text mb-4">S. operativo Windows</p>
+                            </div>
                         </div>
-                        <div class="card-body text-center">
-                            <p class="card-text mb-4">S. operativo Windows</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </button>
+                </div>
 
-            <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                <a href="/4" class="card-link">
-                    <div class="card" style="width: 14rem;">
-                        <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/transporte.svg') }}" class="img-fluid" alt="">
+                <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
+                    <button type="submit" name="opcion" value="Resistencia" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <div class="card" style="width: 14rem;">
+                            <div class="d-flex align-items-center justify-content-center mt-4">
+                                <img src="{{ asset('assets/img/transporte.svg') }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body text-center">
+                                <p class="card-text mb-4">Montaje vehicular</p>
+                            </div>
                         </div>
-                        <div class="card-body text-center">
-                            <p class="card-text mb-4">Montaje vehicular</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </button>
+                </div>
 
-            
+
+    </div>
+</form>
+
+
+        
         </div>
     </div>
 </div>
 
 
-
-
-  
 @endsection

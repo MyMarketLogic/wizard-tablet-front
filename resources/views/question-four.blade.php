@@ -33,8 +33,6 @@
     </div>
 </div>
 
-
-
 <div class="container-fluid">
     <div class="container">
         <div class="row">
@@ -157,7 +155,7 @@
 
                             <form method="GET" action="/">
                                 @csrf
-                                <button type="submit" class="btn-cs-2 my-5">Ver más</button>
+                                <button type="submit" class="btn-cs-2 ">Ver más</button>
                             </form>
                         </div>
                     </div>

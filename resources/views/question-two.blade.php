@@ -44,71 +44,84 @@
             </div>
         </div>
 
-        <div class="row justify-content-center py-5"> 
-            <div class="col-lg-2 col-md-6  col-12 d-flex align-items-center justify-content-center pb-5">
-                <a href="/3" class="card-link">
-                    <div class="card" style="width: 13rem;">
-                        <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/1.svg') }}" class="img-fluid" alt="">
-                        </div>
-                        <div class="card-body text-center">
-                            <p class="card-text mb-4">1 a 10</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
 
-            <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
-                <a href="/3" class="card-link">
-                    <div class="card" style="width: 13rem;">
-                        <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/50.svg') }}" class="img-fluid" alt="">
-                        </div>
-                        <div class="card-body text-center">
-                            <p class="card-text mb-4">11 a 50</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+        <form method="GET" action="/3">
+            @csrf
 
-            <div class="col-lg-2 col-md-4  col-12 d-flex align-items-center justify-content-center pb-5">
-                <a href="/3" class="card-link">
-                    <div class="card" style="width: 13rem;">
-                        <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/51-100.svg') }}" class="img-fluid" alt="">
-                        </div>
-                        <div class="card-body text-center">
-                            <p class="card-text mb-4">51 a 100</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                <div class="row justify-content-center py-5"> 
 
-            <div class="col-lg-2 col-md-4  col-12 d-flex align-items-center justify-content-center pb-5">
-                <a href="/3" class="card-link">
-                    <div class="card" style="width: 13rem;">
-                        <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/100-300.svg') }}" class="img-fluid" alt="">
-                        </div>
-                        <div class="card-body text-center">
-                            <p class="card-text mb-4">101 a 300</p>
-                        </div>
+                    <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
+                        <button type="submit" name="respuesta" value="1 a 10" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                            <div class="card" style="width: 13rem;">
+                                <div class="d-flex align-items-center justify-content-center mt-4">
+                                    <img src="{{ asset('assets/img/1.svg') }}" class="img-fluid" alt="">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p class="card-text mb-4">1 a 10</p>
+                                </div>
+                            </div>
+                        </button>
                     </div>
-                </a>
-            </div>
 
-            <div class="col-lg-2 col-md-4  col-12 d-flex align-items-center justify-content-center pb-5">
-                <a href="/3" class="card-link">
-                    <div class="card" style="width: 13rem;">
-                        <div class="d-flex align-items-center justify-content-center mt-4">
-                            <img src="{{ asset('assets/img/301.svg') }}" class="img-fluid" alt="">
-                        </div>
-                        <div class="card-body text-center">
-                            <p class="card-text mb-4">301 a más</p>
-                        </div>
+
+                    <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
+                        <button type="submit" name="respuesta" value="1 a 10" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                            <div class="card" style="width: 13rem;">
+                                <div class="d-flex align-items-center justify-content-center mt-4">
+                                    <img src="{{ asset('assets/img/50.svg') }}" class="img-fluid" alt="">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p class="card-text mb-4">11 a 50</p>
+                                </div>
+                            </div>
+                        </button>
                     </div>
-                </a>
-            </div>
+
+                    <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
+                        <button type="submit" name="respuesta" value="1 a 10" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                            <div class="card" style="width: 13rem;">
+                                <div class="d-flex align-items-center justify-content-center mt-4">
+                                    <img src="{{ asset('assets/img/51-100.svg') }}" class="img-fluid" alt="">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p class="card-text mb-4">51 a 100</p>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
+                        <button type="submit" name="respuesta" value="1 a 10" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                            <div class="card" style="width: 13rem;">
+                                <div class="d-flex align-items-center justify-content-center mt-4">
+                                    <img src="{{ asset('assets/img/100-300.svg') }}" class="img-fluid" alt="">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p class="card-text mb-4">101 a 300</p>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
+                        <button type="submit" name="respuesta" value="1 a 10" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                            <div class="card" style="width: 13rem;">
+                                <div class="d-flex align-items-center justify-content-center mt-4">
+                                    <img src="{{ asset('assets/img/301.svg') }}" class="img-fluid" alt="">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p class="card-text mb-4">301 a más</p>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+
+                </div>
+
+            </form>
+
+
+       
 
             
         </div>
