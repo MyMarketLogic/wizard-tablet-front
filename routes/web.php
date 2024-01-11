@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AjaxController;
 
 
 Route::get('/', function () {
@@ -36,4 +36,7 @@ Route::get('/5', function () {
     return view('prueba');
 });
 
-Route::post('/5',  'AjaxController@manejarSolicitudAjax' );
+
+
+
+Route::post('/5',  [AjaxController::class, 'manejarSolicitudAjax'] );

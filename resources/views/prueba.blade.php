@@ -6,34 +6,6 @@
 
 
 
-<!--
-
-<script>
-   
-   const token = '{{ csrf_field()}}';
-
-   alert(token);
-
-    const respuesta_tamano = localStorage.getItem('respuesta_valor_2');
-    const respuesta_caracteristicas = localStorage.getItem('respuesta_valor_3');
-
-    $.ajaxSetup({
-        headers: {
-            'X-CSRF-TOKEN': token
-        }
-    });
-
-    $.ajax({
-        type: "POST",
-        url: "/5",
-        data: { caracteristica: respuesta_caracteristicas, tamanio: respuesta_tamano },
-        success: function(response) {
-            console.log(response); 
-        }
-    });
-</script>
--->
-
 <div class="container-fluid pt-5 mb-3">
     <div class="container">
         <div class="row pt-2">
@@ -66,25 +38,12 @@
 <?php
 
 
+$caracteristica = isset($_POST['caracteristica']) ? $_POST['caracteristica']: '';
+$tamanio = isset($_POST['tamanio']) ? $_POST['tamanio']: '';
 
+echo $caracteristica;
+echo $tamanio;
 
-#$caracteristica = isset($_POST['caracteristica']) ? $_POST['caracteristica']: '';
-#$tamanio = isset($_POST['tamanio']) ? $_POST['tamanio']: '';;
-
-$caracteristica =  "
-    <script>
-    localStorage.getItem('respuesta_valor_3')
-    </script>
-
-";
-
-
-$tamanio =  "
-    <script>
-    localStorage.getItem('respuesta_valor_2')
-    </script>
-
-";
 
 if ($caracteristica === "resistencia" && $tamanio === "1 a 10") {
     echo "
@@ -1412,5 +1371,34 @@ if ($caracteristica === "montaje") {
 
 ?>
 
+<script>
+   
+   const token = '{{ csrf_token()}}';
+
+  // alert(token);
+  
+
+    const respuesta_tamano = localStorage.getItem('respuesta_valor_2');
+    const respuesta_caracteristicas = localStorage.getItem('respuesta_valor_3');
+
+    alert(respuesta_tamano +' '+ respuesta_caracteristicas);
+
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': token
+        }
+    });
+
+    $.ajax({
+        type: "POST",
+        url: "/5",
+        data: { caracteristica: respuesta_caracteristicas, tamanio: respuesta_tamano },
+        success: function(response) {
+            console.log( 'respuesta', response);
+            
+            
+        }
+    });
+</script>
 
 @endsection

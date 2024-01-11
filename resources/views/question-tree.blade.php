@@ -9,7 +9,7 @@
         <div class="row pt-2">
             <div class="col-lg-2 col-0">
                 <form method="GET" action="/2">
-                      
+                        @csrf
                     <button type="submit" class="btn-cs mb-5">
                         <i class="fas fa-arrow-left"></i> Regresar
                     </button>
@@ -45,7 +45,7 @@
         </div>
 
         <form method="GET" action="/5">
-            
+            @csrf 
             <div class="row d-flex align-items-center justify-content-center py-5">
 
                 <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">

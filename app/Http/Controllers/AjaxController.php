@@ -9,11 +9,12 @@ class AjaxController extends Controller
     
     public function manejarSolicitudAjax(Request $request)
     {
-        $caracteristica = $request->input('caracteristica');
-        $tamanio = $request->input('tamanio');
+       // $caracteristica = $request->input('caracteristica');
+        //$tamanio = $request->input('tamanio');
+        $data =  $request->all();
 
 
-        return response()->json(['resultado' => 'Solicitud AJAX manejada correctamente']);
+        return response()->json(['resultado' => $data]);
     }
 
 
