@@ -97,22 +97,7 @@
                     </button>
                 </div>
 
-                <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
-                    <button 
-                    type="submit"
-                     name="opcion"
-                     onclick="respuestaCaracteristicas('bateria')"
-                      value="bateria" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
-                        <div class="card" style="width: 14rem;">
-                            <div class="d-flex align-items-center justify-content-center mt-4">
-                                <img src="{{ asset('assets/img/batery.svg') }}" class="img-fluid" alt="">
-                            </div>
-                            <div class="card-body text-center">
-                                <p class="card-text mb-4">Batería</p>
-                            </div>
-                        </div>
-                    </button>
-                </div>
+                
 
                 <div class="col-lg-3 col-md-6 col-12 pb-5 d-flex align-items-center justify-content-center">
                     <button 
