@@ -37,6 +37,4 @@ Route::get('/5', function () {
 });
 
 
-
-
-Route::post('/5',  [AjaxController::class, 'manejarSolicitudAjax'] );
+Route::post('/5') ;

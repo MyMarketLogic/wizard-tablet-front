@@ -4,9 +4,17 @@
 
 @section('content')
 
+<?php
+$load = '';
+
+if(isset($_GET['caracteristica']) && isset($_GET['tamanio'])) { 
+    $load = 'no';
+} 
+?>
+     
 
 
-<div class="container-fluid pt-5 mb-3">
+<div onload="dato(<?php  echo $load; ?> )" class="container-fluid pt-5 mb-3">
     <div class="container">
         <div class="row pt-2">
             <div class="col-lg-2 col-0">
@@ -35,14 +43,16 @@
     </div>
 </div>
 
+
+
+
 <?php
 
 
-$caracteristica = isset($_POST['caracteristica']) ? $_POST['caracteristica']: '';
-$tamanio = isset($_POST['tamanio']) ? $_POST['tamanio']: '';
 
-echo $caracteristica;
-echo $tamanio;
+$caracteristica =  isset($_GET['caracteristica']) ? $_GET['caracteristica'] : '';
+$tamanio = isset($_GET['tamanio']) ? $_GET['tamanio'] : '';
+
 
 
 if ($caracteristica === "resistencia" && $tamanio === "1 a 10") {
@@ -1369,36 +1379,28 @@ if ($caracteristica === "montaje") {
     </div>';
 }
 
+
 ?>
 
+
 <script>
-   
-   const token = '{{ csrf_token()}}';
 
-  // alert(token);
-  
+    function dato(load) {
+        const respuesta_tamano = localStorage.getItem('respuesta_valor_2');
+        const respuesta_caracteristicas = localStorage.getItem('respuesta_valor_3');
 
-    const respuesta_tamano = localStorage.getItem('respuesta_valor_2');
-    const respuesta_caracteristicas = localStorage.getItem('respuesta_valor_3');
+        console.log('fn dato');
 
-    alert(respuesta_tamano +' '+ respuesta_caracteristicas);
+        if(load == 'no') {
+            console.log('load');
+            window.location = "/5?tamanio=" + respuesta_tamano + "&caracteristica=" + respuesta_caracteristicas;
 
-    $.ajaxSetup({
-        headers: {
-            'X-CSRF-TOKEN': token
         }
-    });
+    }
 
-    $.ajax({
-        type: "POST",
-        url: "/5",
-        data: { caracteristica: respuesta_caracteristicas, tamanio: respuesta_tamano },
-        success: function(response) {
-            console.log( 'respuesta', response);
-            
-            
-        }
-    });
+    
 </script>
+
+
 
 @endsection

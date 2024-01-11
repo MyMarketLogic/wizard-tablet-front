@@ -9,6 +9,8 @@ class AjaxController extends Controller
     
     public function manejarSolicitudAjax(Request $request)
     {
+
+        
        // $caracteristica = $request->input('caracteristica');
         //$tamanio = $request->input('tamanio');
         $data =  $request->all();
