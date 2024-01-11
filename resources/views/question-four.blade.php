@@ -9,7 +9,7 @@
         <div class="row pt-2">
             <div class="col-lg-2 col-0">
                 <form method="GET" action="/3">
-                        @csrf
+                        
                     <button type="submit" class="btn-cs mb-5">
                         <i class="fas fa-arrow-left"></i> Regresar
                     </button>
@@ -55,7 +55,7 @@
                             </div>
 
                             <form method="GET" action="/">
-                                @csrf
+                             
                                 <button type="submit" class="btn-cs-2 my-5">Ver más</button>
                             </form>
                         </div>
@@ -76,7 +76,7 @@
                             </div>
 
                             <form method="GET" action="/">
-                                @csrf
+                              
                                 <button type="submit" class="btn-cs-2 my-2">Ver más</button>
                             </form>
                         </div>
@@ -95,7 +95,7 @@
                             </div>
 
                             <form method="GET" action="/">
-                                @csrf
+                               
                                 <button type="submit" class="btn-cs-2 my-5">Ver más</button>
                             </form>
                         </div>
@@ -115,7 +115,7 @@
                             </div>
 
                             <form method="GET" action="/">
-                                @csrf
+                              
                                 <button type="submit" class="btn-cs-2 my-4">Ver más</button>
                             </form>
                         </div>
@@ -135,7 +135,7 @@
                             </div>
 
                             <form method="GET" action="/">
-                                @csrf
+                               
                                 <button type="submit" class="btn-cs-2 my-3">Ver más</button>
                             </form>
                         </div>
@@ -154,7 +154,7 @@
                             </div>
 
                             <form method="GET" action="/">
-                                @csrf
+                                
                                 <button type="submit" class="btn-cs-2 ">Ver más</button>
                             </form>
                         </div>

@@ -9,7 +9,7 @@
         <div class="row pt-2">
             <div class="col-lg-2 col-0">
                 <form method="GET" action="/">
-                        @csrf
+                       
                     <button type="submit" class="btn-cs mb-5">
                         <i class="fas fa-arrow-left"></i> Regresar
                     </button>

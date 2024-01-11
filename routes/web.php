@@ -35,3 +35,5 @@ Route::get('/4', function () {
 Route::get('/5', function () {
     return view('prueba');
 });
+
+Route::post('/5',  'AjaxController@manejarSolicitudAjax' );

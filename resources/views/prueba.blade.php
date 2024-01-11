@@ -4,12 +4,42 @@
 
 @section('content')
 
+
+
+<!--
+
+<script>
+   
+   const token = '{{ csrf_field()}}';
+
+   alert(token);
+
+    const respuesta_tamano = localStorage.getItem('respuesta_valor_2');
+    const respuesta_caracteristicas = localStorage.getItem('respuesta_valor_3');
+
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': token
+        }
+    });
+
+    $.ajax({
+        type: "POST",
+        url: "/5",
+        data: { caracteristica: respuesta_caracteristicas, tamanio: respuesta_tamano },
+        success: function(response) {
+            console.log(response); 
+        }
+    });
+</script>
+-->
+
 <div class="container-fluid pt-5 mb-3">
     <div class="container">
         <div class="row pt-2">
             <div class="col-lg-2 col-0">
                 <form method="GET" action="/">
-                    @csrf
+                    
                     <button type="submit" class="btn-cs mb-5">
                         <i class="fas fa-arrow-left"></i> Regresar
                     </button>
@@ -35,8 +65,26 @@
 
 <?php
 
-$caracteristica = "conectividad";
-$tamanio = "11 a 50";
+
+
+
+#$caracteristica = isset($_POST['caracteristica']) ? $_POST['caracteristica']: '';
+#$tamanio = isset($_POST['tamanio']) ? $_POST['tamanio']: '';;
+
+$caracteristica =  "
+    <script>
+    localStorage.getItem('respuesta_valor_3')
+    </script>
+
+";
+
+
+$tamanio =  "
+    <script>
+    localStorage.getItem('respuesta_valor_2')
+    </script>
+
+";
 
 if ($caracteristica === "resistencia" && $tamanio === "1 a 10") {
     echo "

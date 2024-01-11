@@ -9,7 +9,7 @@
         <div class="row pt-2">
             <div class="col-lg-2 col-0">
                 <form method="GET" action="/1">
-                        @csrf
+                      
                     <button type="submit" class="btn-cs mb-5">
                         <i class="fas fa-arrow-left"></i> Regresar
                     </button>
@@ -46,12 +46,19 @@
 
 
         <form method="GET" action="/3">
-            @csrf
+            
 
                 <div class="row justify-content-center py-5"> 
 
                     <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
-                        <button type="submit" name="respuesta" value="1 a 10" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <button  
+                            type="submit" 
+                            name="respuesta" 
+                            value="1 a 10" 
+                            class="card-link" 
+                            style="border: none; background: none; padding: 0; margin: 0;" 
+                            onclick="respuestaTamanio('1 a 10')">
+
                             <div class="card" style="width: 13rem;">
                                 <div class="d-flex align-items-center justify-content-center mt-4">
                                     <img src="{{ asset('assets/img/1.svg') }}" class="img-fluid" alt="">
@@ -65,7 +72,13 @@
 
 
                     <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
-                        <button type="submit" name="respuesta" value="11 a 50" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <button 
+                            type="submit" 
+                            name="respuesta"
+                            value="11 a 50"
+                            class="card-link"
+                            style="border: none; background: none; padding: 0; margin: 0;"
+                            onclick="respuestaTamanio('11 a 50')">
                             <div class="card" style="width: 13rem;">
                                 <div class="d-flex align-items-center justify-content-center mt-4">
                                     <img src="{{ asset('assets/img/50.svg') }}" class="img-fluid" alt="">
@@ -78,7 +91,14 @@
                     </div>
 
                     <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
-                        <button type="submit" name="respuesta" value="51 a 100" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <button 
+                            type="submit" 
+                            name="respuesta" 
+                            value="51 a 100" 
+                            class="card-link" 
+                            style="border: none; background: none; padding: 0; margin: 0;"
+                            onclick="respuestaTamanio('51 a 100')">
+
                             <div class="card" style="width: 13rem;">
                                 <div class="d-flex align-items-center justify-content-center mt-4">
                                     <img src="{{ asset('assets/img/51-100.svg') }}" class="img-fluid" alt="">
@@ -91,7 +111,14 @@
                     </div>
 
                     <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
-                        <button type="submit" name="respuesta" value="101 a 300" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <button
+                            type="submit"
+                            name="respuesta"
+                            value="101 a 300"
+                            class="card-link"
+                            style="border: none; background: none; padding: 0; margin: 0;"
+                            onclick="respuestaTamanio('101 a 300')">
+
                             <div class="card" style="width: 13rem;">
                                 <div class="d-flex align-items-center justify-content-center mt-4">
                                     <img src="{{ asset('assets/img/100-300.svg') }}" class="img-fluid" alt="">
@@ -104,7 +131,14 @@
                     </div>
 
                     <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
-                        <button type="submit" name="respuesta" value="300 o más" class="card-link" style="border: none; background: none; padding: 0; margin: 0;">
+                        <button 
+                        type="submit" 
+                        name="respuesta" 
+                        value="300 o más" 
+                        class="card-link" 
+                        style="border: none; background: none; padding: 0; margin: 0;"
+                        onclick="respuestaTamanio('300 o más')">
+                        
                             <div class="card" style="width: 13rem;">
                                 <div class="d-flex align-items-center justify-content-center mt-4">
                                     <img src="{{ asset('assets/img/301.svg') }}" class="img-fluid" alt="">
@@ -117,6 +151,7 @@
                     </div>
 
                 </div>
+                
 
             </form>
 
@@ -126,8 +161,15 @@
     </div>
 </div>
 
+<script>
+
+    function respuestaTamanio(valor) {
+        localStorage.setItem('respuesta_valor_2', valor);
+        console.log(valor);
+
+    }
 
 
-
+</script>
   
 @endsection
