@@ -15,6 +15,24 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript">
+        var _ss = _ss || [];
+    _ss.push(['_setDomain', 'https://koi-3QNTNYB2F0.marketingautomation.services/net']);
+    _ss.push(['_setAccount', 'KOI-4KFGF8T09U']);
+    _ss.push(['_trackPageView']);
+    window._pa = window._pa || {};
+    // _pa.orderId = "myOrderId"; // OPTIONAL: attach unique conversion identifier to conversions
+    // _pa.revenue = "19.99"; // OPTIONAL: attach dynamic purchase values to conversions
+    // _pa.productId = "myProductId"; // OPTIONAL: Include product ID for use with dynamic ads      
+    (function() {
+    var ss = document.createElement('script');
+    ss.type = 'text/javascript'; ss.async = true;
+    ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-3QNTNYB2F0.marketingautomation.services/client/ss.js?ver=2.4.0';
+    var scr = document.getElementsByTagName('script')[0];
+    scr.parentNode.insertBefore(ss, scr);
+    })();
+</script>
+
 
   </head>
   <body>

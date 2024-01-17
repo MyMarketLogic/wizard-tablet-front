@@ -29,12 +29,12 @@
             </div>
 
             <div class="col-lg-2 col-12 text-center text-lg-start txt-white">
-                <p>Recomendador de Tablets<b> <br>25% completado</b></p>
+                <p>Recomendador de Tablets<b> <br>100% completado</b></p>
             </div>
 
             <div class="col-lg-6 col-12 my-2">
                 <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
-                    <div class="progress-bar" style="width: 25%;"></div>
+                    <div class="progress-bar" style="width: 100%;"></div>
                 </div>
             </div>
 
@@ -46,7 +46,7 @@
 </div>
 
 
-<div class='row justify-content-center py-5'>
+<div class='row justify-content-center py-3'>
 
     <?php
 
@@ -55,9 +55,8 @@
 
     function generarTarjeta($imagen, $titulo, $descripcion) {
         return "
-        
             <div class='col-lg-2 col-md-6  d-flex align-items-center justify-content-center pb-5'>
-                <div class='card h-100' style='width: 13rem;'>
+                <div class='card h-100' style='width: 18rem;'>
                     <div class='d-flex align-items-center justify-content-center mt-4'>
                         <img src='" . asset($imagen) . "' class='img-fluid' alt=''>
                     </div>
@@ -74,6 +73,7 @@
                 </div>
             </div>";
     }
+    
 
   
     #Inicio resistencia
@@ -327,6 +327,7 @@
 
     ?>
  </div>";
+ 
 <script>
   function DatosRes(load) {
     const respuesta_tamano = localStorage.getItem('respuesta_valor_2');

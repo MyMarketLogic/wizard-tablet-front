@@ -9,7 +9,7 @@
         <div class="row pt-2">
             <div class="col-lg-2 col-0">
                 <form method="GET" action="/1">
-                        @csrf
+                @csrf
                     <button type="submit" class="btn-cs mb-5">
                         <i class="fas fa-arrow-left"></i> Regresar
                     </button>
@@ -47,7 +47,6 @@
 
         <form method="GET" action="/3">
             @csrf
-
                 <div class="row justify-content-center py-5"> 
 
                     <div class="col-lg-2 col-md-6 col-12 d-flex align-items-center justify-content-center pb-5">
@@ -171,5 +170,15 @@
 
 
 </script>
+
+
+<?php 
+
+$caracteristica =  isset($_GET['caracteristica']) ? $_GET['caracteristica'] : '';
+$tamanio = isset($_GET['tamanio']) ? $_GET['tamanio'] : '';
+
+echo $caracteristica
+
+?>
   
 @endsection

@@ -35,12 +35,34 @@
         <div class="row">
             <div class="col-lg-4 col-12 text-center text-lg-start txt-white pt-lg-5 pt-1 ">
                 <h1 class="pt-5">Tabletas Zebra</h1>
-                <p class="mb-5">Con solo 3 pasos te ayudaremos a encontrar la Tableta que más se adecue a sus necesidades empresariales</p>
+                <p class="mb-3">Con solo 3 pasos te ayudaremos a encontrar la Tableta que más se adecue a sus necesidades empresariales</p>
                 
-                <form method="GET" action="/1">
-                    @csrf
+                <form method="POST">
+                    <div class="mb-3">
+                    <label for="email" class="form-label fw-bold txt-white">Ingresa tu email para comenzar:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+
                     <button type="submit" class="btn-cs mb-5">¡Empecemos!</button>
+    
+                    <!-- Conexión a  CRM -->
+                    <script type="text/javascript">
+                        var __ss_noform = __ss_noform || [];
+                        __ss_noform.push(['baseURI', 'https://app-3QNTNYB2F0.marketingautomation.services/webforms/receivePostback/MzawMLE0MbU0AwA/']);
+                        __ss_noform.push(['endpoint', 'f4390436-9fbe-47b0-9652-ef247f401efa']);
+                    </script>
+                    <script type="text/javascript" src="https://koi-3QNTNYB2F0.marketingautomation.services/client/noform.js?ver=1.24" ></script>
+
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function () {
+                        var form = document.querySelector('form');
+                        form.addEventListener('submit', function () {
+                        window.location.href = 'http://127.0.0.1:8000/1';
+                            });
+                        });
+                    </script>
                 </form>
+
             </div>
 
             <div class="col-lg-2 col-0">
@@ -53,6 +75,8 @@
         </div>
     </div>
 </div>
+
+
 
 
 

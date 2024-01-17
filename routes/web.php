@@ -19,7 +19,7 @@ Route::get('/1', function () {
 });
 
 
-Route::get('/2', function () {
+Route::post('/2', function () {
     return view('question-two');
 });
 
@@ -33,7 +33,7 @@ Route::get('/4', function () {
 
 
 Route::get('/5', function () {
-    return view('prueba');
+    return view('results');
 });
 
 
