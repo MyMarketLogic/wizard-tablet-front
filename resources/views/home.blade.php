@@ -28,6 +28,18 @@
     </div>
 </div>
 
+<script>
+    $(document).ready(function() {
+        var progressBar = $(".progress-bar");
+        var progressContainer = $(".progress");
+        var porcentajeCompletado = 2; 
+        var anchoBarra = porcentajeCompletado + "%";
+        progressBar.css("width", anchoBarra);
+        progressBar.addClass("progress-bar-animated");
+        progressContainer.addClass("progress-transition");
+    });
+</script>
+
 
 
 <div class="container-fluid">

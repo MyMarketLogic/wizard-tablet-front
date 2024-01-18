@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row pt-2">
             <div class="col-lg-2 col-0">
-                <form method="GET" action="/3">
+                <form method="POST" action="/3">
                         
                     <button type="submit" class="btn-cs mb-5">
                         <i class="fas fa-arrow-left"></i> Regresar
@@ -32,6 +32,18 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function() {
+        var progressBar = $(".progress-bar");
+        var progressContainer = $(".progress");
+        var porcentajeCompletado = 99; 
+        var anchoBarra = porcentajeCompletado + "%";
+        progressBar.css("width", anchoBarra);
+        progressBar.addClass("progress-bar-animated");
+        progressContainer.addClass("progress-transition");
+    });
+</script>
 
 <div class="container-fluid">
     <div class="container">

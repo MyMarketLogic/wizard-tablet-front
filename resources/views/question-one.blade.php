@@ -34,6 +34,17 @@
     </div>
 </div>
 
+<script>
+    $(document).ready(function() {
+        var progressBar = $(".progress-bar");
+        var progressContainer = $(".progress");
+        var porcentajeCompletado = 30; 
+        var anchoBarra = porcentajeCompletado + "%";
+        progressBar.css("width", anchoBarra);
+        progressBar.addClass("progress-bar-animated");
+        progressContainer.addClass("progress-transition");
+    });
+</script>
 
 
 <div class="container-fluid">
@@ -140,10 +151,22 @@
             
 
         </form>
+    </div>
+</div>
+</div>
 
-        
-</div>
-</div>
-</div>
+<script>
+    $(document).ready(function() {
+        $("#miFormulario").submit(function(e) {
+            if ($("input[name='categoria']:checked").length === 0) {
+                alert("Por favor, selecciona una opción.");
+                e.preventDefault(); 
+                return false;
+            } else {
+                return true;
+            }
+        });
+    });
+</script>
   
 @endsection

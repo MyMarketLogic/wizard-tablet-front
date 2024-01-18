@@ -23,18 +23,16 @@ Route::post('/2', function () {
     return view('question-two');
 });
 
-Route::get('/3', function () {
+Route::post('/3', function () {
     return view('question-tree');
 });
 
-Route::get('/4', function () {
+Route::post('/4', function () {
     return view('question-four');
 });
-
 
 Route::get('/5', function () {
     return view('results');
 });
 
 
-Route::post('/5') ;

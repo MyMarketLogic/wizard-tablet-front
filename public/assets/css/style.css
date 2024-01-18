@@ -158,3 +158,6 @@ html {
 }
 
 
+.progress-transition {
+  transition: width 1s ease;
+}

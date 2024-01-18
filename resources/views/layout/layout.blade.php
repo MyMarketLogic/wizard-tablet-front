@@ -15,6 +15,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
     <script type="text/javascript">
         var _ss = _ss || [];
     _ss.push(['_setDomain', 'https://koi-3QNTNYB2F0.marketingautomation.services/net']);

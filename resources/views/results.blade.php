@@ -55,8 +55,8 @@
 
     function generarTarjeta($imagen, $titulo, $descripcion) {
         return "
-            <div class='col-lg-2 col-md-6  d-flex align-items-center justify-content-center pb-5'>
-                <div class='card h-100' style='width: 18rem;'>
+            <div class='col-lg-2 col-md-6 pb-5'>
+                <div class='card h-100' style='width: 14rem;'>
                     <div class='d-flex align-items-center justify-content-center mt-4'>
                         <img src='" . asset($imagen) . "' class='img-fluid' alt=''>
                     </div>
@@ -65,14 +65,17 @@
                         <div class='text-justify'>
                             <p>$descripcion</p>
                         </div>
+                    </div>
+                    <div class='card-footer text-center'>
                         <form method='GET' action='/'>
                             " . csrf_field() . "
-                            <button type='submit' class='btn-cs-2 my-5'>Ver más</button>
+                            <button type='submit' class='btn-cs-2'>Ver más</button>
                         </form>
                     </div>
                 </div>
             </div>";
     }
+    
     
 
   
